@@ -1,5 +1,5 @@
 ---
-title: "CosmosPapers — AI-Powered Research Aggregator"
+title: "CosmosPapers - AI-Powered Research Aggregator"
 excerpt: "A research discovery platform aggregating 54K+ papers from 15+ top-tier conferences, with semantic search, topic-trend exploration, and an AI Copilot for summaries, Q&A, and BibTeX.<br/><br/>[Visit CosmosPapers →](https://cosmospapers.com)"
 collection: portfolio
 ---

@@ -1,20 +1,31 @@
 ---
 title: "NASA ZEUS Air Quality Monitoring System"
-excerpt: "Air quality forecasting application using NASA satellite data, XGBoost models, and Agentic AI for automated feature engineering.<br/><br/>**Tech Stack:** PyTorch, Next.js, FastAPI, AWS, XGBoost"
+excerpt: "A real-time air quality intelligence platform that combines ground stations, NASA satellite observations, weather forecasts, and AI-powered ozone predictions in a unified monitoring dashboard.<br/><br/>[View Repository →](https://github.com/codemith/nasa-zeus)"
 collection: portfolio
 ---
 
 ## Overview
 
-An air quality forecasting application that provides environmental insights for health-sensitive populations by integrating real-time NASA satellite and OpenAQ data.
+NASA ZEUS is an air quality monitoring and forecasting platform built for the NASA Space Apps Challenge. It unifies environmental signals from ground sensors, satellite observations, and weather feeds to provide actionable air quality insights for health-sensitive users.
+
+**[GitHub](https://github.com/codemith/nasa-zeus)** | **[NASA Space Apps Challenge](https://www.spaceappschallenge.org/)**
 
 ### Key Features
-- Real-time data integration from NASA TEMPO, MERRA-2, and OpenAQ
-- Hyperlocal ozone forecasting for health-sensitive populations
-- Agentic AI for automated feature engineering and versioning
+- **Interactive heat-map monitoring** with live spatial air quality visualization.
+- **Multi-source ingestion** across OpenAQ ground stations, NASA TEMPO data, and OpenWeather forecasts.
+- **AI Weather Agent** for conversational analysis of weather and pollution context.
+- **Ozone (O3) prediction pipeline** for forward-looking air quality estimates.
+- **Historical trend exploration** with chart-based analysis of pollutant patterns.
 
 ### Technical Highlights
-- Custom XGBoost model trained on 5-year NASA MERRA-2 datasets
-- Agentic AI pipeline automating feature engineering and model versioning
-- Full-stack application built with Next.js and FastAPI
-- Scalable AWS architecture covering the full ML lifecycle
+- Architected an end-to-end data pipeline to normalize and combine heterogeneous environmental APIs.
+- Built a low-latency full-stack system with FastAPI + Next.js for real-time map and analytics workflows.
+- Integrated Gemini-powered agent endpoints for natural-language weather and air quality interpretation.
+- Containerized and productionized deployment with Docker, Nginx, and AWS EC2 for cost-efficient hosting.
+
+### Core Stack
+- **Frontend:** Next.js, React, Tailwind CSS, React Leaflet, Chart.js
+- **Backend:** Python, FastAPI, SQLite, httpx
+- **AI/ML:** Google Gemini, PyTorch, Pandas, NumPy
+- **Data Sources:** OpenAQ, NASA TEMPO, OpenWeatherMap
+- **Deployment:** Docker, Docker Compose, Nginx, AWS EC2

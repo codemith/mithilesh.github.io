@@ -27,13 +27,12 @@ I am passionate about building scalable AI systems from distributed GenAI pipeli
   - Created a real-time computer vision system that monitors metal sheet bending in manufacturing, achieving 98.7% accuracy and improving production quality control.
 
 ## Recent Highlights
-
-- [02/28/2026] **CUHackit 2026 Winner** — Won the Microsoft | TD SYNNEX challenge for best use of AI Agents.
+- [02/28/2026] **CUHackit 2026 Winner** - Won the Microsoft | TD SYNNEX challenge for best use of AI Agents.
 - [09/24/2025] **Inspire TD SYNNEX Event** - Project Knode was featured at Inspire, in collaboration with **NVIDIA**, to an audience of over 3,000.
 - [10/18/2025] **Toward AI-driven fire imagery: Attributes, challenges, comparisons, and the promise of VLMs and LLMs** published in Elsevier - Machine Learning with Applications.
 - [03/17/2025] **Eyes on the Environment: AI-Driven Analysis for Fire and Smoke Classification, Segmentation, and Detection** - arXiv preprint
 
 ## Projects
 
-- **[CosmosPapers](http://cosmospapers.com)** (Open Source) — AI-powered research aggregator for 50K+ academic papers with semantic search, automated summarization, and trend visualizations.
-- **NASA ZEUS Air Quality Monitoring** — Air quality forecasting app using NASA satellite data, XGBoost models, and Agentic AI for automated feature engineering.
+- **[CosmosPapers](http://cosmospapers.com)** (Open Source) - AI-powered research aggregator for 50K+ academic papers with semantic search, automated summarization, and trend visualizations.
+- **NASA ZEUS Air Quality Monitoring** - Air quality forecasting app using NASA satellite data, XGBoost models, and Agentic AI for automated feature engineering.

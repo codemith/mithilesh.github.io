@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Mithilesh Biradar"
 title_separator          : "-"
 name                     : &name "Mithilesh Biradar"
-description              : &description "AI/ML Engineer & Researcher — Clemson University"
+description              : &description "AI/ML Engineer & Researcher - Clemson University"
 url                      : https://codemith.github.io
 baseurl                  : ""
 repository               : "codemith/mithilesh.github.io"
