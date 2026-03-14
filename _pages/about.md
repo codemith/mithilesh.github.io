@@ -23,10 +23,10 @@ I am passionate about building scalable AI systems from distributed GenAI pipeli
 - **Research Assistant - Clemson University** (Nov 2024 – Apr 2025)
   - Built AI models to analyze social media and news content at scale, detecting threats and classifying sentiment across multiple languages.
 
-- **Machine Learning Engineer Intern - TRUMPF Metamation** (Jßun 2023 – Sep 2023)
+- **Machine Learning Engineer Intern - TRUMPF Metamation** (Jun 2023 – Sep 2023)
   - Created a real-time computer vision system that monitors metal sheet bending in manufacturing, achieving 98.7% accuracy and improving production quality control.
 
-## Recent Highlightsß
+## Recent Highlights
 
 - [02/28/2026] **CUHackit 2026 Winner** — Won the Microsoft | TD SYNNEX challenge for best use of AI Agents.
 - [09/24/2025] **Inspire TD SYNNEX Event** - Project Knode was featured at Inspire, in collaboration with **NVIDIA**, to an audience of over 3,000.
