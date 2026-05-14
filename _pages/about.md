@@ -123,11 +123,11 @@ Jun 2023 - Sep 2023
 
 ## Recent Highlights
 
-- **CUHackit 2026 Winner:** Won the Microsoft and TD SYNNEX challenge for best
-  use of AI Agents with CosmosPapers.
-- **TD SYNNEX Inspire:** Project Knode was featured in collaboration with
-  NVIDIA to an audience of 3,000+.
-- **Publication:** "Toward AI-driven fire imagery" was published in Elsevier's
+- [02/28/2026] **CUHackit 2026 Winner** - Won the **Microsoft** and
+  **TD SYNNEX** challenge for best use of AI Agents with CosmosPapers.
+- [09/24/2025] **TD SYNNEX Inspire** - Project Knode was featured in
+  collaboration with **NVIDIA** to an audience of 3,000+.
+- [10/18/2025] **Toward AI-driven fire imagery** - Published in Elsevier's
   *Machine Learning with Applications*.
-- **Preprint:** "Eyes on the Environment" is available as an arXiv preprint on
-  AI-driven fire and smoke classification, segmentation, and detection.
+- [03/17/2025] **Eyes on the Environment** - arXiv preprint on AI-driven fire
+  and smoke classification, segmentation, and detection.
