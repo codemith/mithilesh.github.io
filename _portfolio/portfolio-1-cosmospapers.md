@@ -1,32 +1,86 @@
 ---
-title: "CosmosPapers - AI-Powered Research Aggregator - www.cosmospapers.com"
-excerpt: "A research discovery platform aggregating 54K+ papers from 15+ top-tier conferences, with semantic search, topic-trend exploration, and an AI Copilot for summaries, Q&A, and BibTeX."
+title: "CosmosPapers -- AI Research Discovery Platform"
+excerpt: >-
+  A full-stack AI research discovery platform indexing 54K+ papers from 15+
+  top-tier conferences with semantic search, pgvector retrieval, AI Copilot Q&A,
+  summarization, BibTeX generation, recommendations, and topic-trend analytics.
 collection: portfolio
+permalink: /portfolio/cosmospapers/
+order: 1
 ---
 
-## Overview
+CosmosPapers was the Microsoft x TD SYNNEX AI Agents winning project at
+CUHackit 2026. It is a full-stack AI research discovery platform for finding,
+summarizing, and reasoning over papers from major AI, ML, computer vision,
+security, HCI, and visualization conferences.
 
-CosmosPapers is a full-stack research paper aggregation and discovery platform. It scrapes, indexes, and serves accepted papers from 15+ top-tier AI, Machine Learning, Computer Vision, and Security conferences spanning 2022 to 2026.
+<p>
+  <a class="btn btn--primary" href="https://cosmospapers.com/">Live Demo</a>
+  <a class="btn" href="https://github.com/RunWang123/cosmospaper">GitHub</a>
+  <a class="btn" href="#architecture">Architecture</a>
+</p>
 
-<p><a href="https://cosmospapers.com/">Live Website</a> &nbsp; <a href="https://github.com/RunWang123/cosmospaper">GitHub</a></p>
+## Problem
 
-### Key Features
-- **15+ top tier conferences** like CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACM CCS, ACM CHI, USENIX Security, IEEE S&P, IEEE VIS, NDSS, and SIGGRAPH, enabling users to semantically search and find more relevant results.
-- **Semantic search** using `BAAI/bge-base-en-v1.5` embeddings and PostgreSQL `pgvector`.
-- **BERTopic trend analytics** with 150 hierarchical topics and interactive visualizations.
-- **AI Copilot** for paper summarization, Q&A, and BibTeX generation using user-provided keys via NVIDIA NIM or Microsoft AI Foundry.
-- **Bookmarks and recommendations** - get recommendations of papers based on your bookmarks
-- **All without sign-ups!**
+Researchers waste time searching across fragmented conference proceedings,
+PDFs, and publication pages. The work is repetitive, hard to personalize, and
+often disconnected from semantic search, summarization, citation management, and
+trend analysis.
 
-### Technical Highlights
-- Architected an end-to-end RAG pipeline for conference scraping, indexing, and retrieval.
-- Built a multimodal AI layer with LiteLLM-based provider routing for flexible Copilot workflows.
-- Optimized high-dimensional vector similarity search using PostgreSQL (pgvector), engineering multithreaded pipelines to process and ingest data efficiently for concurrent users.
-- Containerized the full stack with Docker Compose for reproducible local and cloud deployment.
+## My Contributions
 
-### Core Stack
-- **Frontend:** Next.js, React, TypeScript
-- **Backend:** Python, FastAPI, Uvicorn
-- **Database:** PostgreSQL + pgvector
-- **AI/ML:** LiteLLM, sentence-transformers (`BAAI/bge-base-en-v1.5`), BERTopic
-- **Deployment:** Docker, Oracle Cloud
+- Built backend retrieval and ingestion components for semantic paper search.
+- Implemented PostgreSQL/pgvector-based vector similarity search.
+- Engineered multithreaded scraping and ingestion pipelines.
+- Integrated AI Copilot workflows for summarization, Q&A, BibTeX generation,
+  and recommendations.
+- Helped deploy a full-stack system using FastAPI, Next.js,
+  PostgreSQL/pgvector, Docker, and cloud infrastructure.
+
+## Architecture
+
+CosmosPapers ingests conference paper metadata and PDFs through scraping and
+normalization pipelines, generates embeddings, stores vectors in
+PostgreSQL/pgvector, and serves semantic search and Copilot workflows through a
+FastAPI backend. The Next.js frontend exposes paper search, recommendations,
+topic trends, Q&A, summaries, and BibTeX generation.
+
+## Technical Highlights
+
+- 54K+ papers
+- 15+ conferences
+- PostgreSQL + pgvector
+- FastAPI backend
+- Next.js frontend
+- BERTopic trend analytics
+- LiteLLM provider routing for NVIDIA NIM and Microsoft AI Foundry
+- Dockerized deployment
+
+## Results / Scale
+
+- Indexed a production-scale academic corpus spanning 54K+ papers from 15+
+  top-tier conferences.
+- Combined semantic retrieval, AI Copilot workflows, paper recommendations, and
+  topic-trend analytics in one recruiter-demoable product.
+- Built a practical GenAI/RAG system that connects ingestion, vector retrieval,
+  backend APIs, frontend UX, and cloud deployment.
+
+## Links
+
+<p>
+  <a class="btn btn--primary" href="https://cosmospapers.com/">Live Demo</a>
+  <a class="btn" href="https://github.com/RunWang123/cosmospaper">GitHub</a>
+  <a class="btn" href="#architecture">Architecture</a>
+</p>
+
+<!--
+TODO: Add static screenshots under /images/projects/, then embed them here.
+Suggested files:
+- /images/projects/cosmospapers-search.png
+- /images/projects/cosmospapers-copilot.png
+- /images/projects/cosmospapers-trends.png
+
+Screenshots should show the indexed production dataset and Copilot workflows so
+the portfolio remains strong if the live demo temporarily shows 0 papers because
+of API or loading issues.
+-->

@@ -1,14 +1,24 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "AI/ML Engineering Projects"
 permalink: /portfolio/
+excerpt: >-
+  Flagship AI/ML engineering case studies across GenAI/RAG, SQL-RAG, NLP, LLM
+  applications, FastAPI, PostgreSQL/pgvector, AWS, Docker, forecasting, and
+  production ML systems.
 author_profile: true
 ---
 
 {% include base_path %}
 
+These flagship projects are selected for recruiters, hiring managers, and
+technical reviewers evaluating production AI/ML engineering work. They emphasize
+the systems work behind applied AI: data ingestion, retrieval, model workflows,
+backend APIs, deployment, and product-facing interfaces.
 
-{% for post in site.portfolio %}
+## Flagship Case Studies
+
+{% assign sorted_portfolio = site.portfolio | sort: "order" %}
+{% for post in sorted_portfolio %}
   {% include archive-single.html %}
 {% endfor %}
-

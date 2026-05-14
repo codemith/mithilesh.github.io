@@ -12,10 +12,12 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Mithilesh Biradar"
 title_separator          : "-"
 name                     : &name "Mithilesh Biradar"
-description              : &description "AI/ML Engineer & Researcher - Clemson University"
+description              : &description >-
+  AI/ML Engineer focused on GenAI, RAG, SQL-RAG, ML systems, and full-stack AI
+  applications.
 url                      : https://codemith.github.io
 baseurl                  : ""
-repository               : "codemith/mithilesh.github.io"
+repository               : "codemith/codemith.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -24,10 +26,10 @@ author:
   avatar           : "profile.png"
   name             : "Mithilesh Biradar"
   pronouns         : # example: "he/him"  
-  bio              : "M.S. Computer Science @ Clemson | AI/ML Engineer | Experience in GenAI, RAG and LLMs"
+  bio              : "M.S. CS @ Clemson | AI/ML Engineer | GenAI/RAG, SQL-RAG, NLP, FastAPI, PostgreSQL/pgvector, AWS"
   location         : "Clemson, SC"
-  employer         : "Clemson University"
-  uri              : # URL
+  employer         : "Open to AI/ML Engineering roles"
+  uri              : "https://codemith.github.io"
   email            : "biradarmithilesh@gmail.com" 
 
   # Academic websites
@@ -142,13 +144,20 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : >-
+  AI/ML Engineer focused on GenAI, RAG, SQL-RAG, NLP, LLMs, FastAPI,
+  PostgreSQL/pgvector, AWS, Docker, NVIDIA NeMo, and NVIDIA NIM.
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person"
+  name                   : "Mithilesh Biradar"
   links: # An array of links to social media profiles
+    - "https://github.com/codemith"
+    - "https://www.linkedin.com/in/mithilesh-biradar-5298b2219"
+    - "https://scholar.google.com/citations?user=D88OOCYAAAAJ&hl=en&authuser=2"
+    - "https://arxiv.org/abs/2503.14552"
+    - "https://codemith.github.io"
 
 
 # Analytics
